@@ -13,8 +13,10 @@
 | `1memory-macos-x64.dmg` | macOS Intel |
 | `1memory-windows-x64-setup.exe` | Windows x64 |
 | `1memory-windows-arm64-setup.exe` | Windows ARM64 |
-| `1memory-linux-x64.deb` | Linux x64 |
-| `1memory-linux-arm64.deb` | Linux ARM64 |
+| `1memory-linux-x64.deb` | Debian / Ubuntu x64 |
+| `1memory-linux-arm64.deb` | Debian / Ubuntu ARM64 |
+| `1memory-linux-x64.rpm` | Fedora / RHEL / CentOS / Rocky / Alma x64 |
+| `1memory-linux-arm64.rpm` | Fedora / RHEL / CentOS / Rocky / Alma ARM64 |
 
 CLI 单文件名为 `1memory-<rust-target>`。Linux armv7 / loongarch64 若该版本编过也会放在同一 Release。
 
