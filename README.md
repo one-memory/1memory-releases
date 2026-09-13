@@ -5,13 +5,17 @@
 - 官网：https://1memory.ai
 - 最新版：[Releases](https://github.com/one-memory/1memory-releases/releases/latest)
 
-每个 `v*` 版本通常包含：
+## 桌面安装包（`latest/download`）
 
 | 文件 | 说明 |
 | --- | --- |
-| Windows NSIS `.exe` | 桌面客户端（含 CLI） |
-| macOS `.dmg` | 桌面客户端（含 CLI） |
-| Linux `.deb` | 桌面客户端（含 CLI） |
-| `1memory-<target>` / `.exe` | 各平台 CLI 单文件 |
+| `1memory-macos-arm64.dmg` | macOS Apple 芯片 |
+| `1memory-macos-x64.dmg` | macOS Intel |
+| `1memory-windows-x64-setup.exe` | Windows x64 |
+| `1memory-windows-arm64-setup.exe` | Windows ARM64 |
+| `1memory-linux-x64.deb` | Linux x64 |
+| `1memory-linux-arm64.deb` | Linux ARM64 |
+
+CLI 单文件名为 `1memory-<rust-target>`。Linux armv7 / loongarch64 若该版本编过也会放在同一 Release。
 
 CLI 也可：`npm i -g @fslong520/1memory-cli`
